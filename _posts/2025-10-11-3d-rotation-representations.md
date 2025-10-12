@@ -2,7 +2,7 @@
 layout: post
 title: "Understanding 3D Rotation Representations: Matrices, Euler Angles, Axis-Angle, and Quaternions"
 subtitle: "A deep dive into SO(3) to avoid gimbal lock and numerical drift"
-date: 2024-10-11 10:00:00 -0700
+date: 2025-10-11 10:00:00 -0700
 categories: [engineering, computer-graphics, robotics]
 tags: [quaternions, rotation-matrix, euler-angles, gimbal-lock, slerp, so3]
 math: true 
