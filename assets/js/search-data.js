@@ -9,7 +9,14 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-publications",
+  },{id: "nav-blog",
+          title: "blog",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/blog/";
+          },
+        },{id: "nav-publications",
           title: "publications",
           description: "",
           section: "Navigation",
@@ -23,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "post-a-post-with-image-galleries",
+        },{id: "post-understanding-3d-rotation-representations-matrices-euler-angles-axis-angle-and-quaternions",
+      
+        title: "Understanding 3D Rotation Representations: Matrices, Euler Angles, Axis-Angle, and Quaternions",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/3d-rotation-representations/";
+        
+      },
+    },{id: "post-a-post-with-image-galleries",
       
         title: "a post with image galleries",
       
@@ -32,17 +50,6 @@ ninja.data = [{
       handler: () => {
         
           window.location.href = "/blog/2024/photo-gallery/";
-        
-      },
-    },{id: "post-understanding-3d-rotation-representations-matrices-euler-angles-axis-angle-and-quaternions",
-      
-        title: "Understanding 3D Rotation Representations: Matrices, Euler Angles, Axis-Angle, and Quaternions",
-      
-      description: "",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2024/3d-rotation-representations/";
         
       },
     },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
