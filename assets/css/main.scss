@@ -23,3 +23,35 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
+/* --- Typography Hierarchy Adjustments --- */
+
+/* 1. Post Meta (Date, Author, Tags) */
+.post-meta {
+  font-size: 0.85rem !important; /* Smaller than title */
+  color: var(--global-text-color-light); /* Slightly faded for hierarchy */
+  margin-top: -5px;
+  margin-bottom: 15px;
+}
+
+/* 2. Post Tags and Categories icons/text */
+.post-tags, .post-categories {
+  font-size: 0.8rem !important;
+  opacity: 0.8;
+}
+
+/* 3. Main Body Text */
+.post-content p {
+  font-size: 1.05rem !important; /* Standard readable size */
+  line-height: 1.6;
+}
+
+/* 4. Subtitles (H2, H3) inside the post */
+.post-content h2 {
+  font-size: 1.6rem !important; /* Smaller than main title (2rem) */
+  margin-top: 2rem;
+}
+
+.post-content h3 {
+  font-size: 1.3rem !important;
+  margin-top: 1.5rem;
+}
