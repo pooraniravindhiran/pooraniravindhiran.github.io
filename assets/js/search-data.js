@@ -38,18 +38,18 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/engineering/machine-learning/deep-learning/2025/12/09/loss-eng.html";
+          window.location.href = "/engineering/machine-learning/deep-learning/2025/02/06/loss-eng.html";
         
       },
     },{id: "post-understanding-3d-rotation-representations-matrices-euler-angles-axis-angle-and-quaternions",
       
-        title: "Understanding 3D Rotation Representations: Matrices, Euler Angles, Axis-Angle, and Quaternions",
+        title: "Understanding 3D Rotation Representations: Matrices, Euler Angles, Axis-Angle and Quaternions",
       
       description: "",
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/engineering/computer-graphics/robotics/2025/10/11/3d-rotation-representations.html";
+          window.location.href = "/engineering/computer-graphics/robotics/2024/10/15/3d-rotation-representations.html";
         
       },
     },{id: "books-the-godfather",
